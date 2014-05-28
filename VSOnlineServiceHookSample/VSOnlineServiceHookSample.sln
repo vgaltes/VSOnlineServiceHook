@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOnlineServiceHook.Tests", "VSOnlineServiceHook.Tests\VSOnlineServiceHook.Tests.csproj", "{EDC1D366-C43B-4670-A8AC-B3E80A291399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOnlineServiceHook.Model", "VSOnlineServiceHook.Model\VSOnlineServiceHook.Model.csproj", "{2EC24190-D256-4D49-AFC7-FB02CF3207D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOnlineServiceHook.Api", "VSOnlineServiceHook.Api\VSOnlineServiceHook.Api.csproj", "{05C7C347-2423-4C8F-BC3A-355944510D35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EDC1D366-C43B-4670-A8AC-B3E80A291399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC1D366-C43B-4670-A8AC-B3E80A291399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC1D366-C43B-4670-A8AC-B3E80A291399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC24190-D256-4D49-AFC7-FB02CF3207D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC24190-D256-4D49-AFC7-FB02CF3207D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC24190-D256-4D49-AFC7-FB02CF3207D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC24190-D256-4D49-AFC7-FB02CF3207D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C7C347-2423-4C8F-BC3A-355944510D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C7C347-2423-4C8F-BC3A-355944510D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C7C347-2423-4C8F-BC3A-355944510D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C7C347-2423-4C8F-BC3A-355944510D35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
