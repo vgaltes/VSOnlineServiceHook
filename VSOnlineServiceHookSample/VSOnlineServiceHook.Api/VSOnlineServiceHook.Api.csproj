@@ -52,10 +52,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\WebApiConfig.cs" />
+    <Compile Include="Controllers\ServiceHooksController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VSOnlineServiceHook.Model\VSOnlineServiceHook.Model.csproj">
+      <Project>{2ec24190-d256-4d49-afc7-fb02cf3207d1}</Project>
+      <Name>VSOnlineServiceHook.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

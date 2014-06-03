@@ -46,7 +46,6 @@ namespace VSOnlineServiceHook.Tests
                 HttpResponseMessage response = await server.HttpClient.PostAsync("ServiceHooks/WorkItemCreated",
                     workItem, new JsonMediaTypeFormatter());
 
-                var content = await response.Content.ReadAsAsync<WorkItemEventData>();
                 response.IsSuccessStatusCode.Should().BeTrue();
 
                 // Check database
