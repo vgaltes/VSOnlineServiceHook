@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOnlineServiceHook.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOnlineServiceHook.Data", "VSOnlineServiceHook.Data\VSOnlineServiceHook.Data.csproj", "{027A6029-2223-467F-ABF4-D8FE1011C494}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSOnlineServiceHook.WebClient", "VSOnlineServiceHook.WebClient\VSOnlineServiceHook.WebClient.csproj", "{9DA0F183-4328-4C0C-BCAA-7D3B5238C8AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{027A6029-2223-467F-ABF4-D8FE1011C494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027A6029-2223-467F-ABF4-D8FE1011C494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027A6029-2223-467F-ABF4-D8FE1011C494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA0F183-4328-4C0C-BCAA-7D3B5238C8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA0F183-4328-4C0C-BCAA-7D3B5238C8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA0F183-4328-4C0C-BCAA-7D3B5238C8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA0F183-4328-4C0C-BCAA-7D3B5238C8AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
